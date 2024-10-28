@@ -2,16 +2,66 @@
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
-        // Press Alt+Enter with your caret at the highlighted text to see how
-        // IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+        // Task 1
+        for (int a = 1; a <= 10; a++) {
+            System.out.print(a + "  ");
 
-        // Press Shift+F10 or click the green arrow button in the gutter to run the code.
-        for (int i = 1; i <= 5; i++) {
+        }
+        // Task 2
+        System.out.println("  ");
+        for (int i = 10; i >= 1; i--) {
+            System.out.print(i + "  ");
+        }
+        System.out.println("  ");
+        // Task 3
+        for (int b = 0; b < 17; b = b + 2) {
+            System.out.print(b + "  ");
+        }
+        // Task 4
+        System.out.println("  ");
+        for (int c = 10; c >= -10; c--) {
+            System.out.print(c + "  ");
+        }
+        // Task 5
+        System.out.println("  ");
+        for (int d = 1904; d < 2096; d = d + 4) {
+            System.out.print(d + "  ");
+        }
+        // Task 6
+        System.out.println("  ");
+        for (int j = 7; j < 100; j = j + 7) {
+            System.out.print(j + "  ");
+        }
+        // Task 7
+        System.out.println("  ");
+        for (int k = 1; k < 515; k = k * 2) {
+            System.out.print(k + "  ");
+        }
+        // Task 8
+        System.out.println("  ");
+        int sum = 29000;
+        for (int month = 1; month <= 12; month++, sum = sum + 29000) {
 
-            // Press Shift+F9 to start debugging your code. We have set one breakpoint
-            // for you, but you can always add more by pressing Ctrl+F8.
-            System.out.println("i = " + i);
+            System.out.println("Месяц " + month + " , сумма накоплений равна " + sum);
+        }
+        // Task 9
+        System.out.println("  ");
+        double deposit = 29000;
+
+        for (int month1 = 1; month1 <= 12; month1++, deposit = deposit + deposit * 0.01 + 29000) {
+            System.out.println("Месяц " + month1 + " , сумма накоплений равна " + deposit);
+        }
+        // Task 10
+        System.out.println("  ");
+        int mult = 1;
+        for (int l = 1; l <= 10; l++, mult = l * 2) {
+            System.out.println("2 * " + l + " = " + mult);
         }
     }
 }
+
+
+
+
+
+
